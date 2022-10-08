@@ -1,0 +1,54 @@
+@import "./custom";
+@import "./font";
+.card-section {
+  .card {
+    background: #4285f4;
+    position: relative;
+    text-align: center;
+    border-radius: 8px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.25rem;
+    .card_icon {
+      background: $white-color;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      position: absolute;
+      border-radius: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 1rem;
+      img {
+        margin: auto;
+        width: 30px;
+      }
+    }
+  }
+  .card:nth-child(2) {
+    background: #1da1f2;
+  }
+  .card:nth-child(3) {
+    background: #3c5a9a;
+  }
+  .card:nth-child(4) {
+    background: #006699;
+  }
+  .card:nth-child(5) {
+    background: linear-gradient(#d82d7e, #f27739);
+  }
+  .card:nth-child(6) {
+    background: linear-gradient(#1bb4fa, #1d7ff3);
+  }
+  .card:nth-child(7) {
+    background: #1a73e8;
+  }
+  .card:nth-child(8) {
+    background: linear-gradient(#5d8dff, #67bdff);
+  }
+  .card:nth-child(9) {
+    background: linear-gradient(#37cf36, #74f362);
+  }
+}

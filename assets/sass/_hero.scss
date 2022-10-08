@@ -1,0 +1,30 @@
+@import "./custom";
+@import "./font";
+
+.hero {
+  .logo {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translatex(-50%);
+    img {
+      width: 80px;
+      border-radius: 50%;
+    }
+  }
+  .hero-bottom {
+    margin-top: 3rem;
+    .hero-detail {
+      border: solid $secondary-color;
+      border-radius: 12px;
+      border-width: 1px 1px 3px;
+      box-sizing: border-box;
+      margin-top: 18px;
+      padding: 10px;
+      word-break: keep-all;
+    }
+    img {
+      width: 1rem;
+    }
+  }
+}
